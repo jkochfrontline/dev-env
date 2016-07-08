@@ -1,0 +1,27 @@
+## General
+*~
+.bundle
+.cache
+.project
+*.zip
+
+## Locks
+Gemfile.lock
+Berksfile.lock
+
+## Sublime
+*sublime*
+*.sublime-project
+*.sublime-workspace
+
+## Vagrant
+.Vagrantfile
+.vagrant/*
+vagrant-boxes/base-boxes
+
+## Shared Dir
+!share/supersuit/README.md
+!share/ui-modules/README.md
+share/.bash_history
+/share/supersuit/**
+/share/uimodules/**
